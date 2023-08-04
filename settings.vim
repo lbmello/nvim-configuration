@@ -29,6 +29,7 @@ set nowrap
 " set backupdir=~/.cache/vim " Direcory to store backup files.
 
 " copy highlight time
+
 let g:highlightedyank_highlight_duration = 3000
 
 " TODO: CHECK THIS CONFIG
@@ -37,29 +38,7 @@ let g:python3_host_prog = '/usr/bin/python3'
 
 
 " Airline pathogen exec, sepparators and symbols
-execute pathogen#infect()
-
-let g:airline_left_sep = '»'
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '«'
-let g:airline_right_sep = '◀'
-let g:airline_symbols.linenr = '␊'
-let g:airline_symbols.linenr = '␤'
-let g:airline_symbols.linenr = '¶'
-let g:airline_symbols.branch = '⎇'
-let g:airline_symbols.paste = 'ρ'
-let g:airline_symbols.paste = 'Þ'
-let g:airline_symbols.paste = '∥'
-let g:airline_symbols.whitespace = 'Ξ'
-
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline_symbols.branch = ''
-let g:airline_symbols.readonly = ''
-let g:airline_symbols.linenr = ''
-
+" execute pathogen#infect()
 
 " Config nerdtree git
 let g:NERDTreeGitStatusIndicatorMapCustom = {
