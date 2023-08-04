@@ -15,7 +15,7 @@ update-git:
 	@cp ~/.config/nvim/init.vim $(GITHUB_REPO_PATH)
 	@cp ~/.config/nvim/settings.vim $(GITHUB_REPO_PATH)/settings.vim
 	@cp ~/.config/nvim/mapping.vim $(GITHUB_REPO_PATH)/mapping.vim
-	@cp ~/.config/nvim/plugins.vim $(GITHUB_REPO_PATH)/pluggins.vim
+	@cp ~/.config/nvim/plugins.vim $(GITHUB_REPO_PATH)/plugins.vim
 
 
 
