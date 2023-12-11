@@ -36,6 +36,15 @@ call plug#begin()
   "
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   
+  " Makrdown Support
+  Plug 'ixru/nvim-markdown'
+  Plug 'SidOfc/mkdx'
 
+  " Vim wiki to lnotes
+  Plug 'vimwiki/vimwiki'
+
+  " 
+  Plug 'iamcco/markdown-preview.nvim'
+  
 call plug#end()
 
